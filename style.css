@@ -1,0 +1,251 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
+body{
+    margin:0;
+    padding:0;
+    background-color:lightgrey
+
+}
+.header{
+    height:100px;
+    width:100%;
+    background-color:rgb(73, 139, 114);
+    border:1px solid green;
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(243, 241, 241)
+}
+.box{
+    border:1px solid lightgray;
+    margin:0 auto;
+    width:80%;
+
+}
+.left{
+    border:1px ;
+    width:25%;
+    height:40px;
+
+}
+.box .right{
+    width:75%;
+    border:1px;
+}
+.left img{
+    width:30px;
+    height:30px;
+    border-radius:100%;
+    border:1px solid white;
+    margin:5px 0px 0px 8px;
+}
+.left .image2{
+    margin-left: 200px;
+}
+.left .image3{
+    width:25px;
+    height:30px;
+    background-color: lightgray;
+    border:none;
+}
+.imagee img{
+    width:30px;
+    height:30px;
+    border-radius:100%;
+    border: 1px solid white;
+    margin:5px 0px 0px 8px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+
+}
+.right .left2{
+    border:;
+    width:80%;
+}
+.right .left2>span{
+    margin-left:40px;
+    text-align: justify;
+    margin-bottom:70px; ;
+}
+.name{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.pin img{
+    width:20px;
+    height:20px;
+}
+.pin{
+    margin:10px 0px 0px 400px;
+    padding: 1px;
+}
+.leftside{
+    border:1px ;
+   width:25%;
+   height:;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   overflow-y:visible;
+   background-color: white;
+
+}
+.rightside{
+    width:75%;
+    border:;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    overflow-y: scroll;
+    background-color: rgb(231, 239, 240);
+
+}
+.down{
+    display: flex;
+    flex-direction: row;
+    width:80%;
+    margin: 0 auto;
+}
+.leftside input{
+    width:310px;
+    height:30px;
+    background-image: url(./icon.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+.img img{
+    width:50px;
+    height: 50px;
+    margin:4px;
+    border-radius: 100%;
+}
+.leftside span{
+    margin: 0px 0px 30px 0px ;
+
+}
+#light{
+    margin: 0px 0px 0px 70px;
+    color:gray ;
+}
+#time{
+    margin: 0px 0px 0px 110px;
+}
+.box1{
+    width:200px;
+    height: 100px;
+    border:;
+    border-style: groove;
+    border-radius: 7px;
+    background-color: white;
+    margin: 10px 0px 0px 70px;
+}
+#aqua{
+    color:aqua;
+}
+.box1 span{
+    line-height:1.5em;
+    margin-left: 30px;
+}
+.box2{
+    width:250px;
+    border-style: groove;
+    border-radius: 7px;
+    background-color: white;
+    margin:10px 0px 0px 65px;
+}
+.box2 span{
+    margin-left: 40px;
+}
+#green{
+    color:green;
+}
+.box3{
+    width:400px;
+    border-radius: 7px;
+    border-style: groove;
+    height: 200px;
+    background-color: white;
+    margin:10px 0px 0px 65px;
+}
+.box3 span{
+    margin-left: 200px;
+}
+#yellow{
+    color:greenyellow;
+}
+.box4{
+    width:250px;
+    border-style: groove;
+    border-radius: 7px;
+    height:100px;
+    margin:10px 0px 0px 65px;
+    background-color: white;
+
+}
+#pink{
+    color: pink;
+
+}
+p{
+    text-indent: 20px;
+}
+.box4 span{
+    margin-left: 100px;
+}
+.box5{
+    width:400px;
+    height: 80px;
+    margin: 10px 0px 0px 65px;
+    background-color: white;
+    border-radius: 7px;
+    border-style: groove;
+}
+#blue{
+    color:blue;
+
+}
+.box5 span{
+    margin-left: 100px;
+}
+.box6{
+    width:200px;
+    height: 100px;
+    margin: 10px 0px 0px 65px;
+    background-color: white;
+    border-radius: 7px;
+    border-top-style: groove;
+}
+.box6 span{
+    margin-left: 40px;
+}
+.leftside tr:hover{
+    background-color: lightgray;
+    
+}
+.box7{
+    border: 1px solid;
+}
+.box7 input{
+    width:800px;
+    border-radius: 5px;
+    height: 30px;
+}
+.box7 img{
+    width:20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.move{
+    width:100%;
+    border:;
+    margin:0 auto;
+    position: absolute;
+    top:30px;
+}
